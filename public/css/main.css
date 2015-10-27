@@ -1,0 +1,19 @@
+html {
+	font-size: 16px;
+	background-color: #ffffe0;
+}
+header {
+	height : 50px;
+	background-color: lightgrey;
+}
+.head {
+	height: 50px;
+	background-color: rgb(128, 21, 21);
+	color: white;
+	text-align: center;
+	margin-top: 0px
+}
+.inline {
+	display: inline-block;
+	vertical-align: bottom;
+}
