@@ -17,3 +17,10 @@ header {
 	display: inline-block;
 	vertical-align: bottom;
 }
+ 
+.map { 
+	position:absolute; 
+	top:50px; 
+	bottom:0; 
+	width:100%; 
+}

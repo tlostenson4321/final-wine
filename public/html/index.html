@@ -2,16 +2,17 @@
 <html ng-app="wineApp">
 <head>
 	<title></title>
+
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.js"></script>
-	<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
-	<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'>
 
 	<link rel="stylesheet" href="../css/main.css">
 
-<body>
+<body ng-controller="wineTroller">
 <header class="container-fluid">
 	<div class="row">
 	<h3 class="head col-xs-5 col-xs-offset-3">Study Study Wine Wine</h3>
@@ -24,10 +25,12 @@
 	</div>
 </header>
 
+<div id='world' class='map'> </div>
 
-<div id='map-one' class='map'> </div>
 
+<script src="../javascripts/map.js"></script>
 <script src="../javascripts/main.js"></script>
+
 </body>
 </html>
 <!-- <div class="dropdown">
